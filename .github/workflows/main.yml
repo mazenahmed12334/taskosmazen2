@@ -13,8 +13,6 @@ jobs:
       runs-on: windows-latest 
       
       steps:
-        - name: 'test'
-          run: pwd
-        - name: 'ahmedd'
-          run: echo ahmed  
-
+        - name: 'print folder contents'
+          run: ls
+        
